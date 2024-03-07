@@ -18,7 +18,7 @@ def list_all_videos(videos):
   for index, vedio in enumerate(videos, start = 1):
     print(f"{index}. {vedio['Name']}, Time needed: {vedio['Time']}, Link: {vedio['Link']}")
   print("\n")
-  print("*" * 70)
+  print("*" * 90)
 
 def add_video(videos):
   name = input("Enter vedio name: ")
@@ -42,7 +42,7 @@ def update_video(videos):
     print("\n")
     print("VEDIO DELETED SUCCESSFULLY!")
   print("\n")
-  print("*" * 70)
+  print("*" * 90)
 
 def delete_video(videos):
   list_all_videos(videos)
@@ -55,7 +55,7 @@ def delete_video(videos):
     print("\n")
     print("VEDIO DELETED SUCCESSFULLY!")
   print("\n")
-  print("*" * 70)
+  print("*" * 90)
 
 def main(): 
 
